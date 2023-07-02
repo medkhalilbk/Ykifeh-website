@@ -10,11 +10,10 @@ const style = {
 
 function Subscription() {
   return (
-    <Container maxW={'3xl'} style={{backgroundColor:'red'}} >
-      <div >Install now
-    <Text fontSize={'6xl'} >
-    Call to Action
-Section</Text></div>
+    <Container maxW={'6xl'}   textAlign="center" marginTop={"12"} >
+      <div >Join on community
+    <Text fontSize={'6xl'} fontWeight={"bold"}  >
+     Subscribe {<br/>} and get the latest updates</Text></div>
     </Container>
   )
 }

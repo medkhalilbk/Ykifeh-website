@@ -4,6 +4,7 @@ import TopBar from '../compoments/topBar';
 import HeroSection from '../compoments/heroSection';
 import Section from '../compoments/Section';
 import Subscription from '../compoments/Subscription';
+import Footer from '../compoments/footer';
 export default function Home() {
   return (
     <>
@@ -21,7 +22,8 @@ export default function Home() {
 </main>
  </div>
  <Section/>
- <Subscription/>
+      <Subscription />
+      <Footer/>
     </>
   
   )

@@ -10,9 +10,9 @@ Ads , sponsors or  premium features in the app
 ## Authors
 
 - [@medkhalilbk](https://www.github.com/medkhalilbk)
-- [@balti](https://www.github.com/medkhalilbk)
-- [@zouinkh](https://www.github.com/medkhalilbk)
-- [@rbayaa](https://www.github.com/medkhalilbk) 
+- [@Baltii](https://www.github.com/Baltii)
+- [@zouinkh](https://www.github.com/zouinkh)
+- [@TNshadow159](https://www.github.com/TNshadow159) 
 
 
 ## API Reference

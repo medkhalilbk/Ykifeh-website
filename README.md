@@ -11,7 +11,7 @@ Ads , sponsors or  premium features in the app
 
 - [@medkhalilbk](https://www.github.com/medkhalilbk)
 - [@Baltii](https://www.github.com/Baltii)
-- [@zouinkh](https://www.github.com/zouinkh)
+- [@zouinekh](https://www.github.com/zouinekh)
 - [@TNshadow159](https://www.github.com/TNshadow159) 
 
 

@@ -69,7 +69,7 @@ export default function Footer() {
         align={{ base: "center", md: "center" }}
       >
         <Logo />
-        <Text>© 2023 Ykifeh. All rights reserved</Text>
+        <Text>© 2023 Ykifeh. All rights reserved.</Text>
         <Stack direction={"row"} spacing={6}>
           <SocialButton label={"Twitter"} href={"#"}>
             <FaAppStore />

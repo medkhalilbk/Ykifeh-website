@@ -21,14 +21,14 @@ function FormSection() {
         <FormLabel>Email</FormLabel>
         <Input placeholder="hello@ykifeh.tn" />
            {!sent && 
-           <div style={{backgroundColor:'red', justifyItems:'center'}} >
+           <div style={{justifyItems:'center'}} >
            <Button
           disabled={sent}
           
           onClick={() => submitForm()}
           margin={'auto'}
           marginTop="5"
-          width="25%" 
+          width="100%" 
           textAlign="center"
           colorScheme="blue"
           variant="outline"   

@@ -9,6 +9,7 @@ import {
   Icon,
   useColorModeValue,
   createIcon,
+  Image,
 } from '@chakra-ui/react';
 import { color } from 'framer-motion';
 
@@ -19,11 +20,11 @@ export default function CallToActionWithAnnotation() {
         <link
           href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap"
           rel="stylesheet"
-        />
+        /> 
       </Head>
 
       <div data-aos="fade-in"    data-aos-duration="3000">
-      <Container maxW={'3xl'}>
+      <Container style={{minWidth:"100%"}}>
         <Stack
           as={Box}
           textAlign={'center'}
@@ -34,7 +35,7 @@ export default function CallToActionWithAnnotation() {
             color={'white.300'}
             fontSize={{ base: '2xl', sm: '4xl', md: '6xl' }}
             lineHeight={'110%'}>
-          Ikifeh? <br />
+          <Image src='logo.png' height={'80px'} margin={'auto'} marginBottom={0} /> <br />
             <Text  fontWeight={500} as={'span'} color={'blue.400'}>
               Live the experience
             </Text>
@@ -85,8 +86,9 @@ height={'16'}
                 }}>
              <img src='https://cdn.svgporn.com/logos/apple.svg'  width={20} style={{marginRight:5 , filter:'invert'}} /> Apple Store
             </Button>
-         
-            <Box>
+ 
+           <div className='extra' >  
+           <Box>
               <Icon
                 as={Arrow}
                 color={useColorModeValue('gray.800', 'gray.300')}
@@ -105,6 +107,7 @@ height={'16'}
                 Soon it will be available on both plateforms
               </Text>
             </Box>
+           </div>
           </Stack>
         </Stack>
       </Container>

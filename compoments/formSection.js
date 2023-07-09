@@ -20,20 +20,22 @@ function FormSection() {
       <FormControl isRequired marginTop="12" marginBottom="12">
         <FormLabel>Email</FormLabel>
         <Input placeholder="hello@ykifeh.tn" />
-        <FormLabel>Telephone</FormLabel>
-        <Input type="number" value={phone} onChange={handleChange} placeholder="+216 123 123 123" />
-        {!sent && <Button
+           {!sent && 
+           <div style={{backgroundColor:'red', justifyItems:'center'}} >
+           <Button
           disabled={sent}
+          
           onClick={() => submitForm()}
+          margin={'auto'}
           marginTop="5"
-          width="25%"
-          marginTop="12"
+          width="25%" 
           textAlign="center"
-          colorScheme="teal"
-          variant="outline" 
+          colorScheme="blue"
+          variant="outline"   
         >
-          Button
-        </Button>}
+          Subscribe
+        </Button>
+        </div>}
       
       </FormControl>
      {sent &&      <Alert status='success'>

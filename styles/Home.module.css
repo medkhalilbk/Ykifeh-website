@@ -10,8 +10,11 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
-
+.extra{
+  display: none;
+}
 .title a {
   color: #0070f3;
   text-decoration: none;
@@ -93,6 +96,5 @@
     width: 100%;
     flex-direction: column;
   }
-}
 
- 
+}

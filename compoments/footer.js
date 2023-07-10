@@ -58,7 +58,7 @@ export default function Footer() {
         <Logo />
         <Text>© 2023 Ykifeh. All rights reserved</Text>
         <Stack direction={"row"} spacing={6}>
-          <SocialButton label={"Twitter"} href={"#"}>
+          <SocialButton label={"testing"} href={"#"}>
             <FaAppStore />
           </SocialButton>
           <SocialButton label={"YouTube"} href={"#"}>

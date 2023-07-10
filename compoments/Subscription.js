@@ -13,7 +13,7 @@ function Subscription() {
     <Container maxW={'6xl'}   textAlign="center" marginTop={"12"} >
       <div >Join on community
     <Text fontSize={'6xl'} fontWeight={"bold"}  >
-     Subscribe {<br/>} and get the latest updates</Text></div>
+     Subscribe   {<br/>} and get the latest updates</Text></div>
     </Container>
   )
 }

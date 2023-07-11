@@ -19,7 +19,7 @@ function FormSection() {
     <Container >
       <FormControl isRequired marginTop="12" marginBottom="12">
         <FormLabel>Email</FormLabel>
-        <Input placeholder="hello@ykifeh.tn" />
+        <Input placeholder="hello@ykifeh.tn"  size="lg"/>
            {!sent && 
            <div style={{justifyItems:'center'}} >
            <Button

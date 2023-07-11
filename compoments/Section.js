@@ -9,14 +9,14 @@ function Section() {
         <Text fontSize={'2xl'} > You'll always find the best plans here 😎 </Text>
         <div data-aos="fade-up"
      data-aos-duration="3000" style={{ position: 'relative', height: 600 }}>
-      <img src="phone.png" alt="Phone" style={{ height: '100%', margin: 'auto' }} />
+      <img src="https://res.cloudinary.com/dykuxtrwz/image/upload/v1689115239/final_nvflp1.png" alt="Phone" style={{ height: '100%', margin: 'auto' }} />
       <img src="emojis.png" alt="Emojis" style={{  position: 'absolute' ,top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }} />
     </div>
     
     <div data-aos="zoom-in" style={{ position: 'relative', height: 600 , marginTop:150 }}>
-      <img src="phone2.png" alt="Phone" style={{ height: '100%', margin: 'auto' }} />
+      <img src="https://res.cloudinary.com/dykuxtrwz/image/upload/v1689115191/mood2_lnlvvs.png" alt="Phone" style={{ height: '100%', margin: 'auto' }} />
       <img src="emoji2.png" alt="Emojis" style={{ height:'60%', position: 'absolute' ,top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }} />
-      <Text  fontSize={'2xl'} fontWeight={200} margin={"auto"} width={'100%'} marginTop={'-140'}  zIndex={0} align={'center'}> 
+      <Text  fontSize={'2xl'} fontWeight={200} margin={"auto"} width={'100%'} marginTop={'-0'}  zIndex={0} align={'center'}> 
        New day = new mood ? 
     </Text>
       <Text  fontSize={{ base: '24px', md: '40px', lg: '48px' }} fontWeight={900} margin={"auto"} width={'60%'} marginTop={''}  zIndex={2} align={'center'}> 
@@ -26,13 +26,13 @@ You can find plans based on your mood !
     <div data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="1500" style={{ position: 'relative', height: 600 , marginTop:150 }}>
-      <img src="phone3.png" alt="Phone" style={{ height: '100%', margin: 'auto' }} />
+      <img src="https://res.cloudinary.com/dykuxtrwz/image/upload/v1689115161/destination_zwwz22.png" alt="Phone" style={{ height: '100%', margin: 'auto' }} />
       <img src="emoji3.png"  alt="Emojis" style={{ height:'60%', position: 'absolute' ,top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }} />
       <Text  fontSize={'2xl'} fontWeight={200} margin={"auto"} width={'100%'} marginTop={'-140'}  zIndex={0} align={'center'}> 
       You'll always find good plans base on your choices
     </Text>
       <Text  fontSize={{ base: '24px', md: '40px', lg: '48px' }} fontWeight={900} margin={"auto"} width={'60%'} marginTop={''}  zIndex={2} align={'center'}> 
-So search precisely !
+So search !
     </Text>
     </div>  
   
